@@ -1,0 +1,131 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    /* Sets the font family for the entire body */
+    margin: 0;
+    /* Removes default margin */
+    padding: 0;
+    /* Removes default padding */
+    background-color: #f4f4f4;
+    /* Light gray background color */
+    color: #333;
+    /* Dark gray text color */
+}
+
+/* Header Styles */
+header {
+    background-color: #4CAF50;
+    /* Green background color */
+    color: white;
+    /* White text color */
+    text-align: center;
+    /* Centers the text */
+    padding: 1em 0;
+    /* Adds padding to top and bottom */
+}
+
+/* Main Content Styles */
+main {
+    width: 90%;
+    /* Adjusted for responsive width */
+    max-width: 600px;
+    /* Sets maximum width */
+    margin: 5em auto;
+    /* Centers the main content and adjusts top/bottom margin */
+    padding: 1em;
+    /* Adds padding inside the main content */
+    background: white;
+    /* White background color */
+    border-radius: 10px;
+    /* Rounds the corners */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    /* Adds a subtle shadow */
+}
+
+/* Question Styles */
+#question {
+    margin-bottom: 1em;
+    /* Adds bottom margin */
+}
+
+/* Answer Button Styles */
+#answers button {
+    display: block;
+    /* Makes the button a block element */
+    width: 100%;
+    /* Full width button */
+    margin: 0.5em 0;
+    /* Adds top/bottom margin */
+    padding: 1em;
+    /* Adds padding inside the button */
+    color: white;
+    /* White text color */
+    border: none;
+    /* Removes border */
+    border-radius: 9px;
+    /* Rounds the corners */
+    cursor: pointer;
+    /* Changes cursor to pointer on hover */
+    background-color: #4CAF50;
+    /* Green background color */
+}
+
+/* Correct Answer Button */
+#answers .correct {
+    background-color: #4CAF50;
+    /* Green background color */
+}
+
+/* Incorrect Answer Button */
+#answers .incorrect {
+    background-color: #f44336;
+    /* Red background color */
+}
+
+/* Next and Restart Button Styles */
+#next-button,
+#restart-button {
+    background-color: #008CBA;
+    /* Blue background color */
+    color: white;
+    /* White text color */
+    border: none;
+    /* Removes border */
+    padding: 1.5em 3em;
+    /* Adds more padding */
+    border-radius: 4px;
+    /* Rounds the corners */
+    cursor: pointer;
+    /* Changes cursor to pointer on hover */
+    display: block;
+    /* Makes the button a block element */
+    margin: 2em auto;
+    /* Centers the button horizontally and adds top margin */
+    font-size: 1.2em;
+    /* Increases font size */
+}
+
+/* Next and Restart Button Hover Styles */
+#next-button:hover,
+#restart-button:hover {
+    background-color: #007bb5;
+    /* Darker blue background on hover */
+}
+
+/* Footer Styles */
+footer {
+    background-color: #4CAF50;
+    /* Green background color */
+    color: white;
+    /* White text color */
+    text-align: center;
+    /* Centers the text */
+    padding: 1em 0;
+    /* Adds padding to top and bottom */
+    position: fixed;
+    /* Fixes the footer at the bottom */
+    bottom: 0;
+    /* Positions at the bottom */
+    width: 100%;
+    /* Full width */
+}

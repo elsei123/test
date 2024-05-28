@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title -->
+    <title>Mind Challenge</title>
+    <!-- stylesheet-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <!-- header -->
+    <header>
+        <h1>Mind Challenge</h1>
+    </header>
+    <!-- main content section -->
+    <main>
+        <!-- Introduction section -->
+        <section id="intro">
+            <h2>Mind Challenge</h2>
+            <p>Test your knowledge on various topics! The questions will cover a range of subjects, including science,
+                history, geography, and general knowledge. Let's see how much you know!</p>
+            <label for="username">Enter your username:</label>
+            <input type="text" id="username" name="username">
+            <button id="start-quiz">Start Quiz</button>
+        </section>
+
+        <!-- Quiz questions section -->
+        <section id="quiz-section" style="display:none;">
+            <div id="question-container">
+                <h2 id="question"></h2>
+                <div id="answers"></div>
+            </div>
+            <button id="next-button" style="display:none;">Next Question</button>
+        </section>
+
+        <!-- Results section -->
+        <section id="result-section" style="display:none;">
+            <h2>Result</h2>
+            <p id="score"></p>
+            <button id="restart-button">Restart Quiz</button>
+        </section>
+    </main>
+
+    <!-- footer -->
+    <footer>
+        <h2>Good Luck!</h2>
+    </footer>
+
+    <script src="assets/js/scritps.js"></script>
+</body>
+
+</html>
